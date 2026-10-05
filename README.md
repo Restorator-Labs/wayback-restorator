@@ -46,6 +46,25 @@ Wayback Restorator restores archived pages and assets from the Wayback Machine, 
 
 For installation instructions, CLI usage, configuration, plugins, development documentation, and other details, see the [official documentation](https://docs.waybackrestorator.dev).
 
+## Install
+
+Requires Python 3.11 or newer:
+
+```sh
+pipx install wayback-restorator
+# or
+uv tool install wayback-restorator
+```
+
+Start the local dashboard, or restore from your terminal:
+
+```sh
+wayback-restorator web
+wayback-restorator restore 'https://web.archive.org/web/20260925084419/https://example.com/'
+```
+
+Prefer Docker? See the [Quickstart](https://docs.waybackrestorator.dev/quickstart/#use-docker-instead).
+
 ## Project
 
 **Wayback Restorator** is independent open-source software and is **not** affiliated with, endorsed by, or sponsored by the Internet Archive.
